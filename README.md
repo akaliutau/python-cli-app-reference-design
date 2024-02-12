@@ -1,9 +1,11 @@
 # Python cli application reference design
 
+![Static Badge](https://img.shields.io/badge/python-3.8-blue)
+
 This repository contains the skeleton for the CLI Python-based application, designed in accordance with best practice,
 including:
 
-* Fully-defined interface
+* Fully-defined command-line interface
 * Modular design
 * Usage of common OOP patterns and best practice
 * Unit-tests
@@ -22,5 +24,14 @@ pip install -r requirements.txt
 
 ```shell
 pytest
+python3 app.py -o test.txt
+```
+
+# Linting
+
+flake8 is a popular linter that comments on the style of code in relation to the PEP 8
+
+```shell
+flake8 --config flake8
 ```
 
